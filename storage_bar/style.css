@@ -1,0 +1,80 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.storage-used {
+    text-align: right;
+    display: block;
+    color: rgba(119, 119, 119, 0.52);
+    padding-bottom: 4pt;
+}
+
+.storage-bar {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    padding: 0;
+    margin: auto;
+    background-color: rgb(70, 70, 70);
+    flex-wrap: nowrap;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.storage-apps {
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(228, 50, 84);
+}
+
+.storage-photos {
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(228, 192, 8);
+}
+
+.storage-media {
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(173, 79, 215);
+}
+
+.storage-text {
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(40, 187, 80);
+}
+
+.storage-other {
+    width: 0%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(124, 123, 128);
+}
+
+.storage-free-space {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(214, 214, 214);
+}
+
+.storage-label {
+    padding-left: 2em;
+}
+
+.storage-label-icon {
+    font-size: 6pt;
+    padding-bottom: 0.5pt;
+    vertical-align: middle;
+}
+
+.storage-free {
+    text-align: right;
+    display: block;
+    color: rgba(119, 119, 119, 0.52);
+}
