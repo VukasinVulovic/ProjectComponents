@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    font-size: 2vw;
+    background: black;
+    width: 100%;
+    padding: 0.5vw;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: rgba(255, 255, 255, 0.568);
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper {
+    width: 70vw;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-wrapper .image {
+    margin: 0.5vw;
+    width: 25vw;
+    height: 25vh;
+}
